@@ -11,6 +11,9 @@ const ibmPlexSerif = IBM_Plex_Serif({
 export const metadata: Metadata = {
   title: "NextB",
   description: "NextB is a mordern banking platform",
+  icons:{
+    icon:"/icon/logo.svg"
+  }
 };
 
 export default function RootLayout({
@@ -20,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} ${ibmPlexSerif}`}>{children}</body>
     </html>
   );
 }
