@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "NextB",
   description: "NextB is a mordern banking platform",
   icons:{
-    icon:"/icon/logo.svg"
+    icon:"/icons/logo.svg"
   }
 };
 
